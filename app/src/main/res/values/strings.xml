@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Loyalty Cards</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8110186678980015/7116623731</string>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>Gas</item>
+        <item>Grocery</item>
+        <item>Other</item>
+        <item>Pharmacy</item>
+        <item>Restaurant</item>
+        <item>Retail</item>
+    </string-array>
+</resources>

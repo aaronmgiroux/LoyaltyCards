@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="Add Card"
+        android:icon="@drawable/plus"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_filter"
+        android:title="Filter"
+        android:icon="@drawable/filter_icon"
+        android:orderInCategory="100"
+        app:showAsAction="always" >
+
+        <menu>
+            <item
+                android:id="@+id/allCards"
+                android:title="All"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/gasCards"
+                android:title="Gas"
+                android:icon="@drawable/gas_icon"/>
+            <item
+                android:id="@+id/groceryCards"
+                android:title="Grocery"
+                android:icon="@drawable/grocery_icon"/>
+            <item
+                android:id="@+id/otherCards"
+                android:title="Other"
+                android:icon="@drawable/other_icon"/>
+            <item
+                android:id="@+id/pharmacyCards"
+                android:title="Pharmacy"
+                android:icon="@drawable/pharmacy_icon"/>
+            <item
+                android:id="@+id/restaurantCards"
+                android:title="Restaurant"
+                android:icon="@drawable/restaurant_icon"/>
+            <item
+                android:id="@+id/retailCards"
+                android:title="Retail"
+                android:icon="@drawable/retail_icon"/>
+        </menu>
+    </item>
+</menu>
